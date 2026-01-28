@@ -14,7 +14,8 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Получаем токен
-TOKEN = os.environ.get("BOT_TOKEN")
+# ВСТАВЬ СВОЙ ТОКЕН ЗДЕСЬ ↓
+TOKEN = "8326712352:AAHo6Dh4AvJ1pHBpYYnYpi3cCR9b2pzLhII"
 if not TOKEN:
     logger.error("❌ BOT_TOKEN не найден!")
     logger.info("Добавьте BOT_TOKEN в Environment Variables на Render")

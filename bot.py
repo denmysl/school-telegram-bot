@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # school-telegram-bot for Render.com
-
+import base64
 import os
 import sys
 import logging
